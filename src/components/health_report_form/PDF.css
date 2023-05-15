@@ -1,0 +1,92 @@
+.pdf__post {
+    align-self: center;
+    color: black;
+}
+
+.personal__info {
+    display: grid;
+    grid-template-columns: 30% auto;
+    width: 60%;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.personal-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    max-width: 35rem;
+}
+
+.personal-about {
+    display: grid;
+    gap: 0.2rem;
+}
+
+.hospital {
+    display: grid;
+    grid-template-columns: 40% 70%;
+    align-items: center;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    background-color: green;
+}
+
+.hospital-info {
+    display: inline-block;
+    color: black;
+}
+
+.hospital-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    max-width: 5rem;
+}
+
+.seperate {
+    margin: 1rem auto;
+    width: 90%;
+    height: 2rem;
+    background: rgb(26, 88, 203)  ;
+    border-radius: 15px;
+}
+
+.medical__info {
+    margin-left: 5rem;
+}
+
+.personal-about > h2 {
+    color: darkorange;
+    text-align: center;
+}
+
+.medical__info > h2 {
+    color: darkorange;
+    margin-left: 15rem;
+}
+
+.btn-save {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    margin-top: 1rem;
+    transform: translateX(180%);
+}
+
+.btn-save:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-save-primary {
+    background: greenyellow;
+    color: var(--color-bg);
+}
